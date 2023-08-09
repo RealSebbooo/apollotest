@@ -4,9 +4,9 @@
     "experimentalDecorators": true,
     "rootDirs": ["src"],
     "outDir": "dist",
-    "lib": ["es2020"],
-    "target": "es2020",
-    "module": "esnext",
+    "lib": ["es6", "ESNext.AsyncIterable"],
+    "target": "es6",
+    "module": "commonjs",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "types": ["node"]

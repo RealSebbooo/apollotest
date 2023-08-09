@@ -10,7 +10,7 @@ class Recipe {
 export class TestResolver {
   constructor() {}
 
-  @Query((returns) => Recipe)
+  @Query(() => Recipe)
   async recipe(@Arg("id") id?: string) {
     console.log("id", id);
 
